@@ -33,7 +33,7 @@ def list_files(paths):
 def search_string_in_files(regex, paths):
     assert isinstance(paths, (list, tuple)), "`paths` should be a list"
     files_list = list_files(paths)
-    print(f"Looking in {len(files_list)} files")
+    print(f"Looking in {len(files_list)} file(s)")
     regex = re.compile(regex, re.IGNORECASE)
     print(f"looking for {regex}")
     mathced_file_list = []
