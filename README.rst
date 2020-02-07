@@ -1,9 +1,15 @@
-# pdfSearcher
+***********
+pdf-searcher
+***********
 
-## Installation
+Installation
+------------
+::
 
   pip install pdfsearcher
 
-## Usage
+Usage
+-----
+::
 
   pdf-searcher "\btest\b" test.pdf 
